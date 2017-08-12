@@ -1,0 +1,10 @@
+<launch> <!-- this launch file runs ono simulator, which gives topics and services instead of Ono -->
+  <node name="ono_simulator" pkg="ipython_robot_prototyping" type="ono_simulator.py" />
+  <node name="talking_ono" pkg="ipython_robot_prototyping" type="talking_ono.py" />
+  
+ <rosparam ns="Ono">
+  age: 4
+  brain: Raspberry_Pi
+  occupation: ROS trainer
+</rosparam>
+</launch>

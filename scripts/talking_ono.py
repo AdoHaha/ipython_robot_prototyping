@@ -26,7 +26,13 @@ conversation = [
     "are you having fun?",
     "yes,I am having fun here",
     "what are you doing?",
-    "I am teaching ROS"
+    "I am teaching ROS",
+    "what do you do?",
+    "I am teaching ROS for a living",
+    "what do you do?",
+    "I am teaching ROS right now, but I am free in the evening",
+    "do you speak Chinese?",
+    "I speak Python"
     ]
 
 chatbot.set_trainer(ListTrainer)
@@ -47,7 +53,7 @@ from ipython_robot_prototyping.srv import *
 
 
 def voice(tekst):
-    tts = gTTS(text=str(tekst), lang='en', slow=True)
+    tts = gTTS(text=str(tekst), lang='en', slow=False)
     tts.save("gadaj.mp3")
     os.system("mpg123 gadaj.mp3")
     
