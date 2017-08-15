@@ -23,6 +23,12 @@ The commands are for those who want to run the ROS from their native environment
 First you need to have your ROS basic setup, use 
 this tutorial: [http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
+
+We will be working using python3 so install also:
+
+```
+sudo apt-get install python3-rospy python3-rospkg python3-rosdep
+
 You need to have catkin workspace set up. Next commands assume that it is in a standard place (~/catkin_ws)
 
 
