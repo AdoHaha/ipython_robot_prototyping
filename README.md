@@ -8,10 +8,12 @@ The package consists msg and srv files and simulator programs for the workshop
 Excercices are at ipython_robot_prototyping/scripts/excercises
 
 
- 1. setting_up_and_running_your_first_ROS_Node.ipynb
+ 1. Setting_up_and_running_your_first_ROS_Node.ipynb
  2. ROS_concepts_explained_Topic_Service_Parameter.ipynb
  3. Using_IPython_Interactive_Widgets.ipynb
  4. Visualizing_robot_senses.ipynb
+ 5. Controlling_and_visualizing_the_ESP_bot.ipynb
+ 6. Tour_of_ROS_tools_with_experiments.ipynb
 
 
 ### How to install:
@@ -51,6 +53,13 @@ source the changes
   ```
   source ~/catkin_ws/devel/setup.bash
   ```
+ 
+ We will be using some additional python(3) libraries, you can install them by pip
+ 
+ ```
+ pip3 install -r requirements.txt
+ ```
+ 
   
   After that, start the IPython notebook in ipython_robot_prototyping directory (~/catkin_ws/src/ipython_robot_prototyping)
   
