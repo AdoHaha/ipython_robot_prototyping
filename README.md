@@ -3,7 +3,7 @@
 The package consists msg and srv files and simulator programs for the workshop
 
 
-### The order of excercises 
+### The order of exercises 
 
 Excercices are at ipython_robot_prototyping/scripts/excercises
 
@@ -18,11 +18,11 @@ Excercices are at ipython_robot_prototyping/scripts/excercises
 
 ### How to install:
 
- **You will be provided with a virtual machine for the workshop so you don't need to do the fallowing commands before the workshop.
+ **You will be provided with a virtual machine for the workshop so you don't need to do the following commands before the workshop.
 
 The commands are for those who want to run the ROS from their native environment (for example an [Ubuntu 16.04 computer](http://wiki.ros.org/kinetic/Installation/Ubuntu)) **
 
-First you need to have your ROS basic setup, use 
+First, you need to have your ROS basic setup, use 
 this tutorial: [http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
 
@@ -82,7 +82,7 @@ source the changes
     cd ~/catkin_ws/src/ipython_robot_prototyping && ipython3 notebook
   ```
   
-  IPython notebook should open in your browser. Go to excercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb
+  Jupyter notebook should open in your browser. Go to exercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb
   
 ### Running locally
 
