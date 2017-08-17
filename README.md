@@ -26,10 +26,24 @@ First you need to have your ROS basic setup, use
 this tutorial: [http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
 
+
+
 We will be working using python3 so install also:
 
 ```
 sudo apt-get install python3-rospy python3-rospkg python3-rosdep
+
+```
+
+To run the "robot simulators" offline install also 
+
+
+```
+sudo apt-get install mpg123
+```
+
+
+
 
 You need to have catkin workspace set up. Next commands assume that it is in a standard place (~/catkin_ws)
 
@@ -70,3 +84,19 @@ source the changes
   
   IPython notebook should open in your browser. Go to excercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb
   
+### Running locally
+
+We have prepared "robot simulators" to use this tutorial without the access of
+real robots. To do so you need to run:
+
+```
+
+roslaunch ipython_robot_prototyping simulators.launch 
+
+```
+
+also in your Jupyter notebooks change the ROS MASTER URI to http://localhost:11311
+
+```
+%env ROS_MASTER_URI=http://localhost:11311
+```
