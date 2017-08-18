@@ -7,7 +7,7 @@ The package consists msg and srv files and simulator programs for the workshop
 
 Excercices are at ipython_robot_prototyping/scripts/excercises
 
-
+ 0. Getting_Started_with_virtual_environment.ipynb -- an installation of virtual machine
  1. Setting_up_and_running_your_first_ROS_Node.ipynb
  2. ROS_concepts_explained_Topic_Service_Parameter.ipynb
  3. Using_IPython_Interactive_Widgets.ipynb
@@ -21,6 +21,8 @@ Excercices are at ipython_robot_prototyping/scripts/excercises
  **You will be provided with a virtual machine for the workshop so
  you don't need to do the following commands before the workshop unless you 
  want to run the exercises on your local machine.
+
+ **[Getting Started with virtual environment](Getting_Started_with_virtual_environment.ipynb)**
 
 The commands are for those who want to run the ROS from their native environment (for example an [Ubuntu 16.04 computer](http://wiki.ros.org/kinetic/Installation/Ubuntu)) **
 
