@@ -18,11 +18,14 @@ Excercices are at ipython_robot_prototyping/scripts/excercises
 
 ### How to install:
 
- **You will be provided with a virtual machine for the workshop so
- you don't need to do the following commands before the workshop unless you 
- want to run the exercises on your local machine.
+We have prepared a virtual machine for the workshop,
+so you don't need to manually install ROS beforehand.
 
- **[Getting Started with virtual environment](Getting_Started_with_virtual_environment.ipynb)**
+** However, please install and prepare VirtualBox
+ using the instructions from
+[Getting Started with virtual environment](https://github.com/AdoHaha/ipython_robot_prototyping/blob/master/scripts/excercises/Getting_Started_with_virtual_environment.ipynb) **.
+
+#### Manual install 
 
 The commands are for those who want to run the ROS from their native environment (for example an [Ubuntu 16.04 computer](http://wiki.ros.org/kinetic/Installation/Ubuntu)) **
 
