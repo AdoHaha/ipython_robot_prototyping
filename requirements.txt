@@ -4,7 +4,6 @@ bokeh>=0.12.6
 catkin-pkg>=0.3.5
 
 ChatterBot>=0.7.5
-beautifoul
 
 ipython>=6.1.0
 
