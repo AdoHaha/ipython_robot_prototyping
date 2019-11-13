@@ -4,7 +4,7 @@ bokeh>=0.12.6
 catkin-pkg>=0.3.5
 
 ChatterBot>=0.7.5
-
+beautifoul
 
 ipython>=6.1.0
 
@@ -14,13 +14,13 @@ jupyter-core==4.3.0
 notebook>=5.0.0
 numpy>=1.13.1
 
-
+beautifulsoup4
 traitlets>=4.3.2
 
 bs4>= 0.0.1
 
 PyYAML>=3.12
-
+chatterbot_corpus
 defusedxml>=0.5.0
 
 gTTS>=1.2.1

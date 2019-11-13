@@ -78,7 +78,7 @@ source the changes
  We will be using some additional python(3) libraries, you can install them by pip
  
  ```
- pip3 install -r requirements.txt
+ cd ~/catkin_ws/src/ipython_robot_prototyping && sudo pip3 install -r requirements.txt
  ```
  
   
@@ -86,7 +86,7 @@ source the changes
   
   
   ```
-    cd ~/catkin_ws/src/ipython_robot_prototyping && ipython3 notebook
+    cd ~/catkin_ws/src/ipython_robot_prototyping && jupyter notebook
   ```
   
   Jupyter notebook should open in your browser. Go to exercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb

@@ -35,8 +35,11 @@ conversation = [
     "I speak Python"
     ]
 
-chatbot.set_trainer(ListTrainer)
-chatbot.train(conversation)
+
+
+trainer = ListTrainer(chatbot)
+trainer.train(conversation)
+
 
 
 
