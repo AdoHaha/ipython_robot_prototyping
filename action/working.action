@@ -1,0 +1,8 @@
+#goal definition
+string[] list_of_orders
+---
+#result
+string[] finished_tasks
+---
+#feedback
+string current_task

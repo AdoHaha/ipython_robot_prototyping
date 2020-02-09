@@ -1,0 +1,11 @@
+
+# goal part
+int32 x 
+int32 y
+----
+#result
+string success
+----
+#feedback
+int32 x
+int32 y
