@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # license removed for brevity
 import rospy
 from std_msgs.msg import Int32
